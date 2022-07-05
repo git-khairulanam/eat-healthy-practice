@@ -73,3 +73,107 @@ body{
 .second h2{
   font-size: 30px;
 }
+
+/**----recipies----**/
+
+.recipies-part{
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+
+.description h3{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(48, 47, 47);
+}
+
+.description{
+  margin-bottom: 50px;
+}
+
+.description p{
+  text-align: center;
+}
+
+
+.flex-container{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.flex-item{
+  width: 40%;
+  border-radius: 15px;
+  box-shadow: 10px 10px 15px grey;
+}
+
+.flex-item p{
+  text-align: justify;
+}
+
+.item1{
+  margin-right: 30px;
+  margin-left: 85px;
+  padding: 15px;
+}
+
+.item2{
+  padding: 15px;
+}
+
+.flex-item img{
+  width: 100%;
+}
+
+/**-----youtube, dribble etc-***/
+
+.youtube-sub{
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px grey;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.youtube{
+  width: 90%;
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+
+.instagram{
+  width: 90%;
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+
+.dribble{
+  width: 90%;
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+
+/**----footer--**/
+.black-yellow{
+  background-color: black;
+  margin-top: 80px;
+}
+
+.black-yellow h4{
+  text-align: center;
+  color: azure;
+  padding-top: 15px;
+}
+
+.black-yellow h4 span{
+  color: orange;
+}
+
+.black-yellow p{
+  text-align: center;
+  color: azure;
+  padding-bottom: 40px;
+}

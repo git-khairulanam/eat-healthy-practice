@@ -35,10 +35,41 @@ body{
   color: orange;
 }
 
-.order-link{
+.link-button{
   text-decoration: none;
   background-image: linear-gradient(orange, tomato);
   padding: 8px 15px;
   border-radius: 30px;
   color: antiquewhite;
+}
+
+.second-portion{
+  display: flex;
+  margin-top: 35px;
+  background-image: url(images/7.png);
+  background-repeat: no-repeat;
+}
+
+.first{
+  width: 40%;
+  padding-top: 25px;
+  padding-left: 10%;
+}
+
+.second{
+  width: 60%;
+  margin-top: 90px;
+}
+
+.first img{
+  width: 60%;
+}
+
+.second p{
+  width: 90%;
+  text-align: justify;
+}
+
+.second h2{
+  font-size: 30px;
 }
